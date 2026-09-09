@@ -6,3 +6,4 @@ def test_placeholder_import():
 
 def test_add_returns_sum():
     assert add(2, 2) == 4
+    assert add(0, 0) == 0
