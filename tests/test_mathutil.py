@@ -17,3 +17,7 @@ def test_add_negative_and_positive():
 
 def test_add_two_negatives():
     assert add(-4, -6) == -10
+
+def test_add_returns_sum():
+    assert add(2, 2) == 4
+    assert add(0, 0) == 0
